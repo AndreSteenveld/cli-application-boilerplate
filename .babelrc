@@ -1,0 +1,16 @@
+{
+	"presets": [ "node6" ],
+	"plugins": [
+		"transform-decorators-legacy",
+		"transform-class-properties",
+		"transform-export-extensions",
+		"transform-async-to-bluebird",
+		"transform-promise-to-bluebird",
+		"transform-runtime"
+	],
+
+	"env": {
+    	"test": { "plugins": [ "istanbul" ] },
+		"development": { "plugins": [ "istanbul" ] }
+	}
+}
